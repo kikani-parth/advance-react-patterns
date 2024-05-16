@@ -16,7 +16,7 @@ function useToggle() {
   const [on, setOn] = React.useState(false);
   const toggle = () => setOn(!on);
 
-  function getTogglerProps({ onClick, ...props }) {
+  function getTogglerProps({ onClick, ...props } = {}) {
     return {
       "aria-pressed": on,
       onClick: callAll(onClick, toggle),
