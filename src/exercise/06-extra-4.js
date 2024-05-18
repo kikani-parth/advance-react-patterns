@@ -1,9 +1,6 @@
 // Control Props
 // http://localhost:3000/isolated/final/06.js
 
-/* OVERWRITE THE RESPECTIVE EXERCISE SOLUTIONS IN THIS FILE TO VIEW THE PAGE ON THE ABOVE ADDRESS*/
-/* eg: COPY "06-exercise.js" FILE AND PASTE HERE TO LOAD ON THE ABOVE LOCALHOST ADDR */
-
 import * as React from "react";
 import warning from "warning";
 import { Switch } from "../switch";
